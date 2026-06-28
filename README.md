@@ -17,3 +17,4 @@ Airbnb Experiences: card density, simple typography hierarchy, and heart-toggle 
 GetYourGuide: discoverability model using stackable filters and keyword search behavior. https://www.getyourguide.com/
 
 Klook: mobile card scaling and compact filter ergonomics. https://www.klook.com/
+
