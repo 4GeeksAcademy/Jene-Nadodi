@@ -20,7 +20,7 @@ export function FilterBar({
         <select
           value={category}
           onChange={(event) => onCategoryChange(event.target.value)}
-          className="w-full rounded-xl border border-slate-200 bg-white px-4 py-3 text-slate-900 outline-none transition focus:border-sky-400 focus:ring-2 focus:ring-sky-100"
+          className="w-full rounded-xl border border-slate-200 bg-white px-4 py-3 text-slate-900 outline-none transition focus:border-emerald-400 focus:ring-2 focus:ring-emerald-100"
         >
           <option value="">All categories</option>
           {categoriesList.map((item) => (
@@ -39,7 +39,7 @@ export function FilterBar({
           value={destination}
           onChange={(event) => onDestinationChange(event.target.value)}
           placeholder="Filter by city or country"
-          className="w-full rounded-xl border border-slate-200 bg-white px-4 py-3 text-slate-900 outline-none transition focus:border-sky-400 focus:ring-2 focus:ring-sky-100"
+          className="w-full rounded-xl border border-slate-200 bg-white px-4 py-3 text-slate-900 outline-none transition focus:border-emerald-400 focus:ring-2 focus:ring-emerald-100"
         />
         <datalist id="destinations">
           {destinationsList.map((item) => (

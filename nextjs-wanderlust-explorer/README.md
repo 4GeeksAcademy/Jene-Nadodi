@@ -1,6 +1,6 @@
 # Wanderlust Labs Explorer
 
-A high-fidelity, multi-page travel experience explorer built with Next.js App Router, TypeScript, and Tailwind CSS.
+A multi-page travel experience explorer built with Next.js App Router, TypeScript, and Tailwind CSS.
 
 ## Features
 

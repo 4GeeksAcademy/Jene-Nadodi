@@ -5,7 +5,7 @@ export default function ExperiencesPage() {
   return (
     <main className="mx-auto w-full max-w-6xl flex-1 px-6 py-10">
       <section className="mb-8 space-y-3">
-        <p className="text-sm font-semibold uppercase tracking-[0.2em] text-emerald-300">
+        <p className="text-sm font-semibold uppercase tracking-[0.2em] text-emerald-500">
           Discover
         </p>
         <h1 className="font-display text-4xl font-black text-slate-700 sm:text-5xl">

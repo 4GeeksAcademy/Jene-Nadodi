@@ -37,7 +37,7 @@ export function ExperienceCard({ experience }: ExperienceCardProps) {
 
       <div className="space-y-3 p-4">
         <div className="flex items-center justify-between gap-3">
-          <span className="rounded-full bg-teal-800 px-3 py-1 text-xs font-semibold text-slate-800">
+          <span className="rounded-full bg-emerald-500 px-3 py-1 text-xs font-semibold text-slate-800">
             {experience.category}
           </span>
           <span className="inline-flex items-center gap-1 text-sm font-semibold text-slate-700">
@@ -58,7 +58,7 @@ export function ExperienceCard({ experience }: ExperienceCardProps) {
           <p className="text-xl font-bold text-slate-900">${experience.price}</p>
           <Link
             href={`/experiences/${experience.id}`}
-            className="rounded-lg border border-slate-200 px-3 py-2 text-sm font-semibold text-slate-700 transition hover:border-emerald-300 hover:text-emerald-800"
+            className="rounded-lg border border-slate-200 px-3 py-2 text-sm font-semibold text-slate-700 transition hover:border-emerald-300 hover:text-emerald-500"
           >
             View Details
           </Link>

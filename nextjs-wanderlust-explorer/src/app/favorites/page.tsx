@@ -33,7 +33,7 @@ export default function FavoritesPage() {
           </p>
           <Link
             href="/experiences"
-            className="mt-6 inline-flex rounded-xl bg-sky-700 px-5 py-3 font-semibold text-white transition hover:bg-sky-800"
+            className="mt-6 inline-flex rounded-xl bg-emerald-500 px-5 py-3 font-semibold text-white transition hover:bg-emerald-700"
           >
             Browse experiences
           </Link>

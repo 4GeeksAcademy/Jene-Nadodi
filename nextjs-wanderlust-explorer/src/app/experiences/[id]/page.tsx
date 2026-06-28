@@ -37,7 +37,7 @@ export default async function ExperienceDetailPage({
 
       <section className="mt-8 space-y-5 rounded-3xl border border-slate-200 bg-white p-6 shadow-sm sm:p-8">
         <div className="flex flex-wrap items-center gap-3">
-          <span className="rounded-full bg-sky-100 px-3 py-1 text-xs font-semibold text-sky-800">
+          <span className="rounded-full bg-slate-300 px-3 py-1 text-xs font-semibold text-slate-800">
             {experience.category}
           </span>
           <span className="inline-flex items-center gap-1 rounded-full bg-amber-100 px-3 py-1 text-sm font-semibold text-amber-800">
@@ -57,7 +57,7 @@ export default async function ExperienceDetailPage({
 
         <Link
           href="/experiences"
-          className="inline-flex rounded-xl border border-slate-200 px-4 py-2 font-semibold text-slate-700 transition hover:border-slate-300 hover:text-slate-800"
+          className="inline-flex rounded-xl border border-slate-200 px-4 py-2 font-semibold text-slate-600 transition hover:border-emerald-500 hover:text-emerald-500"
         >
           Back to explorer
         </Link>
