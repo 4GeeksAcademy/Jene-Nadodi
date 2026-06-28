@@ -1,2 +1,2 @@
-# Jene-Wallet
-Digital wallet for a fin-tech company
+# Jene-Nadodi
+A wanderlust explorer website called Nadodi
