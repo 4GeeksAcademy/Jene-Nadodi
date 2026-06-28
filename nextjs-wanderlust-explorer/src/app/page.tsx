@@ -8,7 +8,7 @@ export default function Home() {
         <div className="pointer-events-none absolute -right-16 -top-16 h-64 w-64 rounded-full bg-stone-300/35 blur-3xl" />
         <div className="pointer-events-none absolute -bottom-20 -left-20 h-72 w-72 rounded-full bg-stone-300/30 blur-3xl" />
 
-        <div className="relative z-10 grid gap-8 lg:grid-cols-[1.2fr_0.8fr] lg:items-end">
+        <div className="relative z-10 grid gap-8 lg:grid-cols-[1.2fr_0.8fr] lg:items-center">
           <div className="space-y-6">
             <p className="inline-flex rounded-full bg-slate-200 px-4 py-2 text-xs font-bold uppercase tracking-[0.2em] text-slate-800">
               Nadodi: Poha Vendum Ododi
@@ -34,8 +34,9 @@ export default function Home() {
               src="https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1000&q=80"
               alt="Travelers exploring a vibrant destination"
               width={1000}
-              height={800}
-              className="h-72 w-full rounded-xl object-cover"
+              height={1200}
+              priority
+              className="h-80 sm:h-[20rem] lg:h-[26rem] w-full rounded-xl object-cover"
               unoptimized
             />
           </div>
